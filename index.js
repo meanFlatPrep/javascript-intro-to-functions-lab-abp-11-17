@@ -13,7 +13,7 @@ function logWhisper (whisperIt) {
 function sayHiToGrandma(talk){
 var said = talk ;
 var answer = {
-  toWhisper:  "I can't hear you!" ,  
+  toWhisper:  "I can't hear you!" ,
   toShout:    "YES INDEED!",
   toLove:     "I love you, too."
   }
@@ -23,12 +23,8 @@ if (said === talk.toUpperCase()){
 else if (talk === "I love you Grandma.") {
   return answer.toLove
   }
-  
+
 else {
   return answer.toWhisper
   }
 }
-
-  
-  
-  
