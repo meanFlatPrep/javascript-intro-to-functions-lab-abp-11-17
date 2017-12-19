@@ -10,26 +10,25 @@ function logShout (shoutIt) {
 function logWhisper (whisperIt) {
   console.log(whisperIt.toLowerCase());
 }
-function sayHiToGrandma(say){
-  var input = say ;
-  if (input = say.toLowerCase()){
-    return"I can't hear you!"
+function sayHiToGrandma(talk){
+var said = talk ;
+var answer = {
+  toWhisper:  "I can't hear you!" ,  
+  toShout:    "YES INDEED!",
+  toLove:     "I love you, too."
   }
-}
-function sayHiToGrandma(say){
-  var input = say ;
-  if (input.toLowerCase() = "i love you, grandma."){
-  return "I love you, too."}
-  else if (input ) 
-  {
-    
+if (said === talk.toUpperCase()){
+  return answer.toShout
+  }
+else if (talk === "I love you Grandma.") {
+  return answer.toLove
   }
   
-  
-    say.toLowerCase()){
-    return "I can't hear you!"
-    }
-  else {
-    return "YES INDEED!"
+else {
+  return answer.toWhisper
   }
 }
+
+  
+  
+  
