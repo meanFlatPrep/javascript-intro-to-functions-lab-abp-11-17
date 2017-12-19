@@ -20,7 +20,7 @@ var answer = {
 if (said === talk.toUpperCase()){
   return answer.toShout
   }
-else if (talk === "I love you Grandma.") {
+else if (talk === "I love you, Grandma.") {
   return answer.toLove
   }
 
